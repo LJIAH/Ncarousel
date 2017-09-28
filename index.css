@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#content{
+    width: 1000px;
+    height: 409px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.bg li{
+    list-style: none;
+    float: left;
+    display: none;
+}
+.bg li.current{
+    display: block;
+}
+
+.indicator{
+    position: absolute;
+    bottom: 20px;
+    left: 440px;
+}
+.indicator li{
+    width: 12px;
+    height: 12px;
+    list-style: none;
+    float: left;
+    background-color: lightgrey;
+    margin-left: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.indicator .current{
+    background-color: #00a3d2;
+}
+
+.left,.right{
+    position: absolute;
+    top: 180px;
+    cursor: pointer;
+}
+.left{
+    left: 30px;
+
+}
+.right{
+    right: 30px;
+}
